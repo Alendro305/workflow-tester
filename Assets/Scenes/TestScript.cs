@@ -15,4 +15,10 @@ public class TestScript : MonoBehaviour
     {
         
     }
+
+    public void SomeShitMethod()
+    {
+        if(true)
+            Debug.LogError("Errror!");
+    }
 }
